@@ -1,0 +1,14 @@
+exports.token = "bottokenhere";
+exports.mongourl = "mongourlhere";
+exports.db = {
+    host: "localhost",
+    user: 'mysqluser',
+    pass: 'mysqlpass',
+    db: 'mysqldb',
+    port: '3306' // only change if ur mysql port is not default
+}
+exports.version = "1.0.0";
+exports.ram_api = {
+    key: "api key here unless using basic/extended",
+    version: 'v11'
+}
