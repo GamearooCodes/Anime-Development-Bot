@@ -1,17 +1,21 @@
 # Anime Development Bot
 
-copy config.js.example to a new txt doc and name it config.js
+A bot for tickets applications and more.
 
-fill in the blanks
+## Setup
+
+1. copy config.js.example to a new txt doc and name it config.js
+
+2. fill in the blanks
 
 ## Starting
 
-# windows
+### windows
 
 1. install node.js v16 then run update.bat to install the dependency's
 2. to start the bot run the start.bat file
 
-# linux
+### linux
 
 1. install node.js v16
 
