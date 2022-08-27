@@ -28,3 +28,8 @@ A bot for tickets applications and more.
 
 3. start the bot
    > node . or node index.js
+
+## dependency update
+
+1. Delete node modules
+2. run update.bat or run npm i
