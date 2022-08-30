@@ -1,6 +1,7 @@
 const { Client } = require("discord.js");
 const { version } = require("../../config");
-const RamApi = require("../Utils/apiclient");
+const ApiClient = require("../Utils/apiclient");
+
 const ConsoleLog = require("../Utils/Logger");
 
 module.exports = {
@@ -11,7 +12,7 @@ module.exports = {
      * @param {Client} client 
      */
     async run(client) {
-        new RamApi().version_check();
+        new ApiClient().version_checkAsync();
 
         // Code here
 
