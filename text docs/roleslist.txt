@@ -1,0 +1,34 @@
+Staffs:
+<@&924108882392010802> (1A-01) - The founder of the server 
+<@&924108943532363817> (1A-KIWI) - The 2nd owner (person who will take over when founder leaves)
+<@&924109052382957588> (1A-03)  - the co-owner who helps both the founder and the owner with tasks
+<@&1013944490525999194> (1A-04) - The head of staff team members
+<@&993605846200234057> (1A-05) - partner manager
+<@&924109173069844491> (2M-01 to 2M-04) - the management team
+<@&924109614730055690> (2T-01 to 3T-03) - Team leads
+<@&942545822271291402> (3T-04) - People who have the power to manage or helps manage systems (specially trained members)
+<@&947366431882878996> (3T-05) - App team
+<@&924110013323169833> (4S-01 to 4S-03) - Support Team
+<@&924109949636837417> (5O-01 to 5O-03) - mod team
+<@&931221163886141500> (6U-01 to 6U-05) - Trial Staff or staff in training
+
+
+Members:
+<@&932458569314496602> - Members who are live
+<@&939766070946955304> - Todays bday's
+<@&938108584221376602> - ex staff who is no longer staff due to many reasons however can still help out in the server
+<@&1002391979474292753> - our host
+<@&924113836066353192> - Our partners
+<@&924114193320411146> - Our friends note there not staff
+<@&632438095685484549> - our awesome server boosters
+<@&938270619462680586> - our amazing patron supporter https://www.patreon.com/gamearoo
+<@&997850494095609916> - Our amazing Ram premium users
+<@&924111560937463858> - Our members
+more to come
+
+Bots:
+<@&924105403581751326> - bots we made that got verified
+<@&951709319135625236> - our new or just not yet verified bots we made
+<@&973450284141527070> - bots owned with one of our @Partners which is partnered with @Ram
+<@&951708822647492648> - third party verified bots
+<@&924112244638359552> - third party bots

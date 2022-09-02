@@ -12,9 +12,13 @@ module.exports = {
      * @param {Client} client 
      */
     async run(client) {
+
+        await require('../Utils/command')(client);
         new ApiClient().version_checkAsync();
 
-        // Code here
+
+
+        client.user.setPresence({ activities: [{ name: 'Anime Development', type: 3 }], status: 'dnd' });
 
         new ConsoleLog().info(`${client.user.tag} is Online and ready on ${version}`)
     }

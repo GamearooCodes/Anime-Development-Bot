@@ -12,3 +12,5 @@ exports.ram_api = {
     key: "api key here unless using basic/extended",
     version: 'v11'
 }
+exports.beta = true;
+exports.devguildId = "dev guild id (server id)";

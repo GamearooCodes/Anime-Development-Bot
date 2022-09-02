@@ -1,4 +1,4 @@
-const { Client, GatewayIntentBits, Partials } = require('discord.js');
+const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 const fs = require('node:fs');
 const path = require("node:path");
 const { token } = require('../config');
@@ -7,10 +7,12 @@ class BotClient extends Client {
     constructor() {
         super({
             intents: [
-                GatewayIntentBits.Guilds
+                GatewayIntentBits.Guilds,
+                GatewayIntentBits.DirectMessages
             ],
             partials: [Partials.User],
         })
+        this.commands = new Collection();
     }
     start() {
         const eventsPath = path.join(__dirname, './Events');
