@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+.zip
 # use config.js.example and make a copy and name it config.js and fill out the blanks
 config.js
 
