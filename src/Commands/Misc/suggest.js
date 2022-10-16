@@ -2,7 +2,7 @@ const { PermissionFlagsBits, CommandInteraction, Client, InteractionType, Applic
 const { suggestchn, emojis } = require("../../../config");
 const ApiClient = require("../../Utils/apiclient");
 
-const ConsoleLog = require("../../Utils/logger");
+const ConsoleLog = require("../../Utils/Logger");
 
 module.exports = {
     name: 'suggest',
