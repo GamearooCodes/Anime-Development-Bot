@@ -2,7 +2,7 @@ const { Client } = require("discord.js");
 const { readdirSync } = require("fs");
 const { beta, devGuildId, devguildId } = require("../../config");
 const path = require('node:path');
-const ConsoleLog = require("./logger");
+const ConsoleLog = require("./Logger");
 
 /**
  * 
