@@ -1,7 +1,7 @@
 const { PermissionFlagsBits, CommandInteraction, Client } = require("discord.js");
 const ApiClient = require("../../Utils/apiclient");
 
-const ConsoleLog = require("../../Utils/logger");
+const ConsoleLog = require("../../Utils/Logger");
 
 module.exports = {
     name: 'hello',
