@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require("node:path");
 const { token, automodignored } = require('../config');
 const AutoModClass = require('./Utils/automod');
-const ConsoleLog = require('./Utils/logger');
+const ConsoleLog = require('./Utils/Logger');
 
 class BotClient extends Client {
     constructor() {
