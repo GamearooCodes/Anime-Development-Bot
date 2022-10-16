@@ -66,9 +66,9 @@ module.exports = {
                     }
                 })
 
-                const appChannel = client.channels.cache.get(appschannel);
+                const appChannel = client.channels.cache.get("1012925240101306420");
 
-                const approveButton = new ButtonBuilder().setCustomId('approvedapp').setEmoji("✅")
+                //const approveButton = new ButtonBuilder().setCustomId('approvedapp').setEmoji("✅").setStyle()
 
                 collector.on('end', (collected, reason) => {
                     if (reason === 'fulfilled') {
@@ -80,7 +80,7 @@ module.exports = {
                         appChannel.send({
                             content: `<@&924109173069844491> A Application was submitted!`,
                             embeds: [new EmbedBuilder()
-                                .setTitle(`Application for ${interaction.member}`)
+                                .setTitle(`Application for ${interaction.user.tag}`)
                                 .setDescription(mappedRes)
                                 .setColor('DarkGold')
                                 .setTimestamp()],

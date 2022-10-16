@@ -1,6 +1,8 @@
 const { Client } = require("discord.js");
-const { version } = require("../../config");
+const { version, automodlogs } = require("../../config");
 const ApiClient = require("../Utils/apiclient");
+const AutoModClass = require("../Utils/automod");
+
 
 const ConsoleLog = require("../Utils/Logger");
 
@@ -21,5 +23,7 @@ module.exports = {
         client.user.setPresence({ activities: [{ name: 'Anime Development', type: 3 }], status: 'dnd' });
 
         new ConsoleLog().info(`${client.user.tag} is Online and ready on ${version}`)
+
+
     }
 }
