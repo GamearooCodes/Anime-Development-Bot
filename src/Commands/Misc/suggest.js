@@ -43,10 +43,13 @@ module.exports = {
         const suggchannel = await interaction.guild.channels.cache.get(suggestchn);
 
         const embed = new EmbedBuilder()
+
             .setDescription(`For: ${bot} \n\n Suggestion: ${sugg} \n\n To vote react with ${emojis.yes} for yes and ${emojis.no} for no`)
             .setColor("Yellow")
             .setTitle(`Suggestion By: ${interaction.user.tag}`)
             
+
+           
             .addFields({ name: `Status:`, value: `PENDING VOTES` });
 
         if (example !== "NULL") embed.addFields({ name: `Example:`, value: example });

@@ -44,7 +44,10 @@ class BotClient extends Client {
 
         this.on('messageCreate', async (message) => {
             if (message.author.bot) return;
+
 			if(!message.guild) return;
+
+
             let ignored = await message.guild.roles.cache.get(automodignored);
 
             if (message.member.roles.cache.has(ignored.id)) return new ConsoleLog().info('Member is ignored')
