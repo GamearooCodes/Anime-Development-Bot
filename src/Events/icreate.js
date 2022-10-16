@@ -1,6 +1,6 @@
 const { Interaction, PermissionsBitField } = require('discord.js');
 const { beta } = require('../../config');
-const ConsoleLog = require('../Utils/logger');
+const ConsoleLog = require('../Utils/Logger');
 module.exports = {
     name: 'interactionCreate',
     once: false,
