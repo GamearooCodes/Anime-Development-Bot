@@ -1,10 +1,25 @@
-Anime Development 
+**Features to come:**
 
-In Anime Development we develop different stuff such as bots, sites, and more
-our most popular code is ram bot
+jail system
 
-Want to get support or help with coding or help getting started this is your server 
-or you can just join and chat as its also a make a friend server
+Math system
 
-Invite: https://discord.gg/5a93U2xYjZ
-Site: https://animedev.top/ 
+Move 8ball and rps to games system
+
+
+**Edits:**
+
+dashboard fixes
+
+tickets optimization
+
+
+**Tickets plugin**
+
+Tickets will receive a little redoing to better look the ticket and closing options.....
+
+adds /tickets claim (allows staff to claim a ticket more than one staff can react per ticket)... * Staff cmd
+
+adds /tickets manage <ticket number> <action(useradd, userremove, department, hold, lock * lock will prevent users who arnt staff from sending msgs)> [user]* staff cmd
+
+adds /tickets changemain <user> (allows to change the main ticket user in the ticket usefull if the member is missing or left the server) * staff cmd

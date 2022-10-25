@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require("node:path");
 
 module.exports = {
-    name: 'ad',
+    name: 'embed',
     description: 'the ad embed',
     perm: PermissionFlagsBits.Administrator,
     /**
@@ -16,7 +16,7 @@ module.exports = {
         let pathtxt = path.join(__dirname, '../../../text docs/ourad.txt');
         var text = fs.readFileSync(pathtxt).toString('utf-8');
 
-        const embed = new EmbedBuilder().setDescription(text).setTitle('Our Ad').setColor("Blurple");
+        const embed = new EmbedBuilder().setDescription(text).setTitle('Ram Bot v14.1.x pre Notes').setColor("DarkVividPink");
 
         interaction.channel.send({ embeds: [embed] });
 
