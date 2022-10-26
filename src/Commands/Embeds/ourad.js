@@ -23,7 +23,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setDescription(text)
-      .setTitle("Ram Api  v11 Pre-Notes")
+      .setTitle("Ram Api  v12 Pre-Notes")
       .setColor("DarkVividPink");
 
     interaction.channel.send({ embeds: [embed] });
