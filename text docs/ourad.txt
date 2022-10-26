@@ -1,25 +1,15 @@
-**Features to come:**
+**Features to come**
 
-jail system
+Ping callback to reach the ping to connect
 
-Math system
+rps added to normal and basic endpoints
 
-Move 8ball and rps to games system
+basic endpoints redo to make it faster
 
+**Fixes**
 
-**Edits:**
+faster response times
 
-dashboard fixes
+**removals**
 
-tickets optimization
-
-
-**Tickets plugin**
-
-Tickets will receive a little redoing to better look the ticket and closing options.....
-
-adds /tickets claim (allows staff to claim a ticket more than one staff can react per ticket)... * Staff cmd
-
-adds /tickets manage <ticket number> <action(useradd, userremove, department, hold, lock * lock will prevent users who arnt staff from sending msgs)> [user]* staff cmd
-
-adds /tickets changemain <user> (allows to change the main ticket user in the ticket usefull if the member is missing or left the server) * staff cmd
+NOne
